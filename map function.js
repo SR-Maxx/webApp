@@ -59,7 +59,7 @@ map.on("load", function () {
         function (snapshot) {
           var gps = snapshot.val();
           var x =  gps.LNG; //121.0869 + Math.random() * 0.01; // 
-          var y =   gps.LNG;//14.692901 - Math.random() * 0.01;//gps.LAT;
+          var y =   gps.LAT;//14.692901 - Math.random() * 0.01;//gps.LAT;
 
 
           console.log(coord3);
